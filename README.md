@@ -25,8 +25,9 @@ Você pode acessar o meu site portfólio através deste [link]https://meusitepab
 
 Aqui estão algumas imagens do meu site portfólio:
 
-![Captura de Tela 1](caminho/para/imagem1.png)
-Legenda da Imagem 1
+![Imagem 1](imagens/fotosite1.png)
 
-![Captura de Tela 2](caminho/para/imagem2.png)
-Legenda da Imagem 2
+![Imagem 2](imagens/fotosite2.png)
+
+![Imagem 3](imagens/fotosite3.png)
+

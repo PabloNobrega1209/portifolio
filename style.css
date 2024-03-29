@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+header .logo{
+    border-radius: 20px;
+    transform: scale(1.15);
+}
+
+.siteup h1{
+    color: white;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+h2.titulo{
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: arial;
+}
+
+h2.titulo span{
+    color: #004AAD;
+    font-family: arial;
+}
+
+h3{
+    color: white;
+    padding-top: 40px;
+    padding-bottom: -2px;
+    font-size: 30px;
+    font-family: arial;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    margin: 25px 0;
+    font-family: arial;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #8a8a8a;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.15);
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .botao-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: #004AAD;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+header .botao-contato button:hover{
+    box-shadow: 8px 8px 8xp #ad0000;
+}
+
+section.siteup{
+    padding: 40px 4%;
+}
+
+section.siteup .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.siteup .fotinha img{
+    position: relative;
+    animation: animado 2s ease-in-out infinite alternate;
+
+}
+
+@keyframes animado{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+section .especialidades-box{
+    padding: 40px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+}
+
+section .especialidades-box:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+section .especialidades-box p{
+    font-size: 20px;
+    padding: 30px;
+}
+
+section .especialidades-box .curricu{
+    margin-left: 420px;
+    margin-right: 420px;
+    font-size: 30px;
+    background-color: #004AAD;
+    color: white;
+    padding: 10px 120px;
+    border-radius: 10px;
+}
+
+section.sobre{
+    padding: 40px 4%;
+}
+
+.sobre .tsobre{
+    color: white;
+    padding: 40px;
+    padding-top: 100px;
+}
+
+.sobre .tsobre h2{
+    font-size: 40px;
+    color: #004AAD;
+}
+
+section .tsobre .social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #0b1116;
+    margin: 0 10px;
+}
+
+footer{
+    background-color: rgb(15, 15, 15);
+    padding: 10px;
+    box-shadow: 8px 8px 8xp gray;
+  }
+
+footer p{
+    padding-left: 870px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
